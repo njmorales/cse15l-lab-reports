@@ -1,2 +1,2 @@
-Screenshot:
+Screenshot: 
 ![Image](screenshot.PNG)
