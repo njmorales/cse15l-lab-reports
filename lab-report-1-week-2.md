@@ -9,7 +9,8 @@ Back to [All Labs](https://njmorales.github.io/cse15l-lab-reports/)
 ## Step 2: Remotely Connecting
 * If you are on Windows, you must first install a program called OpenSSH. You can do that by following this guide [Here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)!
 * Lookup your course-specific account for CSE 15L [Here](https://sdacs.ucsd.edu/~icc/index.php)
-* Your account name should resemble something like this (with the 'xx' portion replaced by your specific characters): [cs15lwi22xx@ieng6.ucsd.edu]
+* Your account name should resemble something like this (with the 'xx' portion replaced by your specific characters): 
+>`cs15lwi22xx@ieng6.ucsd.edu`
 * In VSCode, open the terminal and type this command: 
 >`$ ssh cs15lwi22xx@ieng6.ucsd.edu`
 * Type 'yes' if you recieve a message along the lines of this: 
