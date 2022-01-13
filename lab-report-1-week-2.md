@@ -14,7 +14,6 @@ Back to [All Labs](https://njmorales.github.io/cse15l-lab-reports/)
 * In VSCode, open the terminal and type this command: 
 >`$ ssh cs15lwi22xx@ieng6.ucsd.edu`
 * Type 'yes' if you recieve a message along the lines of this: 
-
 >`The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])?`
