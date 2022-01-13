@@ -17,6 +17,7 @@ Back to [All Labs](https://njmorales.github.io/cse15l-lab-reports/)
 >`The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])?`
+
 * The terminal will then ask for your account password, so type that in and hit enter. You should then see something like this in your terminal:
 ![Image](sshlogin.png)
 
