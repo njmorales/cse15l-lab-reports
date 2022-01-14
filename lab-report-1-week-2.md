@@ -1,5 +1,5 @@
-Back to [All Labs](https://njmorales.github.io/cse15l-lab-reports/)
 # Lab Report 1 - Logging onto ieng6 Tutorial
+Back to [All Labs](https://njmorales.github.io/cse15l-lab-reports/)
 
 ## Step 1: Installing VSCode
 * Download Visual Studio Code [Here](https://code.visualstudio.com/)!
