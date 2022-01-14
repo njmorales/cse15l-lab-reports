@@ -82,13 +82,7 @@ The key's randomart image is:
 ```
 * Then, copy the public key to the .ssh directory on the server by following these commands (with your username respectively):
 ```
-$ ssh cs15lwi22zz@ieng6.ucsd.edu
-<Enter Password>
-# now on server
-$ mkdir .ssh
-$ <logout>
-# back on client
-$ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
+hello
 ```
 
 * What this has done is created public and private keys that are stored on the server and client respectively, allowing you to ssh from this client without tediously entering a password everytime. As you can see here, no password was required:
