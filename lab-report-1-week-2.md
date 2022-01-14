@@ -52,7 +52,7 @@ class WhereAmI {
 scp WhereAmI.java cs15lwi22xx@ieng6.ucsd.edu:~/
 ```
 
-* You will be prompted with a password to login with ssh, enter it and the file should be copied over to the remote computer. Log in to ieng6 using ssh again and run `ls`. You should now see that the program is running on the server, it will look similar to this:
+* You will be prompted with a password to login with ssh, enter it and the file should be copied over to the remote computer. Log in to ieng6 using ssh again and run `ls`. You should now see that the file has been copied to the server. Use `javac` and `java` again to run the program on the server, it will look similar to this:
 ![Image](scptest.png)
 
 ## Step 5: Setting an SSH Key
