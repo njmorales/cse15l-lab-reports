@@ -56,5 +56,41 @@ scp WhereAmI.java cs15lwi22xx@ieng6.ucsd.edu:~/
 ![Image](scptest.png)
 
 ## Step 5: Setting an SSH Key
+* On client (your computer) enter the commands as follows using your respective username and directories:
+```
+$ ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/joe/.ssh/id_rsa): /Users/joe/.ssh/id_rsa
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/joe/.ssh/id_rsa.
+Your public key has been saved in /Users/joe/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:jZaZH6fI8E2I1D35hnvGeBePQ4ELOf2Ge+G0XknoXp0 joe@Joes-Mac-mini.local
+The key's randomart image is:
++---[RSA 3072]----+
+|                 |
+|       . . + .   |
+|      . . B o .  |
+|     . . B * +.. |
+|      o S = *.B. |
+|       = = O.*.*+|
+|        + * *.BE+|
+|           +.+.o |
+|             ..  |
++----[SHA256]-----+
+```
+* Then, copy the public key to the .ssh directory on the server by following these commands (with your username respectively):
+```
+$ ssh cs15lwi22zz@ieng6.ucsd.edu
+<Enter Password>
+# now on server
+$ mkdir .ssh
+$ <logout>
+# back on client
+$ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
+```
+* What this has done is created public and private keys that are stored on the server and client respectively, allowing you to ssh from this client without tediously entering a password everytime. As you can see here, no password was required:
+![Image](sshkeygensuccess.PNG)
 
 ## Step 6: Optimizing Remote Running
