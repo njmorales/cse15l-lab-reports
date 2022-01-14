@@ -81,7 +81,6 @@ The key's randomart image is:
 +----[SHA256]-----+
 ```
 * Then, copy the public key to the .ssh directory on the server by following these commands (with your username respectively):
-
 ```
 $ ssh cs15lwi22zz@ieng6.ucsd.edu
 <Enter Password>
