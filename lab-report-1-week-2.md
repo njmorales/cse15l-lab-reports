@@ -90,6 +90,7 @@ $ <logout>
 # back on client
 $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ```
+
 * What this has done is created public and private keys that are stored on the server and client respectively, allowing you to ssh from this client without tediously entering a password everytime. As you can see here, no password was required:
 ![Image](sshkeygensuccess.PNG)
 
