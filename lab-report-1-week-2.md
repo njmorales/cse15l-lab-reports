@@ -38,12 +38,12 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 * Create a file called `WhereAmI.java` on your computer and copy this code into it: 
 ```
 class WhereAmI {
-  public static void main(String[] args) {
-    System.out.println(System.getProperty("os.name"));
-    System.out.println(System.getProperty("user.name"));
-    System.out.println(System.getProperty("user.home"));
-    System.out.println(System.getProperty("user.dir"));
-  }
+    public static void main(String[] args) {
+        System.out.println(System.getProperty("os.name"));
+        System.out.println(System.getProperty("user.name"));
+        System.out.println(System.getProperty("user.home"));
+        System.out.println(System.getProperty("user.dir"));
+    }
 }
 ```
 
