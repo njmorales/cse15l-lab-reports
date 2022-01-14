@@ -89,3 +89,13 @@ hello
 ![Image](sshkeygensuccess.PNG)
 
 ## Step 6: Optimizing Remote Running
+* You can write a command in quotes at the end of an ssh command to directly run it on the remote server, then exit. For example, this command will log in and list the home directory on the remote server:
+```
+$ ssh cs15lwi22xx@ieng6.ucsd.edu "ls"
+```
+* You can also use semicolons to run multiple commands on the same line in most terminals. For example, try:
+```
+$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
+```
+* Running these commands should look something like this:
+![Image](sshtips.PNG)
