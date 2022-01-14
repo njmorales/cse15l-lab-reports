@@ -105,3 +105,4 @@ $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 ```
 * Running these commands should look something like this:
 ![Image](sshtips.PNG)
+* One last handy tip! You can use the up-arrow on your keyboard to recall and cycle through previous commands!
