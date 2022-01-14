@@ -46,7 +46,14 @@ class WhereAmI {
     }
 }
 ```
+* Use `javac` and `java` to run this program on your computer. It should print out the name of the operating system, the name of the user, and some directories
+* Then, from the directory where you made this file, run this command with your username:
+```
+scp WhereAmI.java cs15lwi22xx@ieng6.ucsd.edu:~/
+```
 
+* You will be prompted with a password to login with ssh, enter it and the file should be copied over to the remote computer. Log in to ieng6 using ssh again and run `ls`. You should now see that the program is running on the server, it will look similar to this:
+![Image](scptest.png)
 
 ## Step 5: Setting an SSH Key
 
