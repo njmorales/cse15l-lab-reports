@@ -22,8 +22,23 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?`
 ![Image](sshlogin.png)
 
 ## Step 3: Trying Some Commands
+* Now try running the commands cd, ls, pwd, mkdir, and cp a few times in different ways, both on your computer, and on the remote computer after ssh-ing. Experiment with what the commands can do!
+* To log out of the remote server in your terminal, you can use `Ctrl+D` or run the command `exit`
+* Here is what running some different commands would look like:
+![Image](commandsscreenshot.png)
 
 ## Step 4: Moving Files with scp
+* Using a command called `scp`, you will be able to copy files from your computer (client) to a remote computer (server)
+* Create a file called `WhereAmI.java` on your computer and copy this code into it: 
+>`class WhereAmI {
+  public static void main(String[] args) {
+    System.out.println(System.getProperty("os.name"));
+    System.out.println(System.getProperty("user.name"));
+    System.out.println(System.getProperty("user.home"));
+    System.out.println(System.getProperty("user.dir"));
+  }
+}`
+
 
 ## Step 5: Setting an SSH Key
 
