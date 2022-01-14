@@ -28,10 +28,10 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ![Image](sshlogin.png)
 
 ## Step 3: Trying Some Commands
-* Now try running the commands cd, ls, pwd, mkdir, and cp a few times in different ways, both on your computer, and on the remote computer after ssh-ing. Experiment with what the commands can do!
-* To log out of the remote server in your terminal, you can use `Ctrl+D` or run the command `exit`
+* Now try running the commands `cd`, `ls`, `pwd`, `mkdir`, and `cp` a few times in different ways, both on your computer, and on the remote computer after ssh-ing. Experiment with what the commands can do!
 * Here is what running some different commands would look like:
 ![Image](commandsscreenshot.png)
+* To log out of the remote server in your terminal, you can use `Ctrl+D` or run the command `exit`
 
 ## Step 4: Moving Files with scp
 * Using a command called `scp`, you will be able to copy files from your computer (client) to a remote computer (server)
@@ -47,7 +47,7 @@ class WhereAmI {
 }
 ```
 * Use `javac` and `java` to run this program on your computer. It should print out the name of the operating system, the name of the user, and some directories
-* Then, from the directory where you made this file, run this command with your username:
+* Then, from the directory where you made the `WhereAmI.java` file, run this command with your username respectively:
 ```
 scp WhereAmI.java cs15lwi22xx@ieng6.ucsd.edu:~/
 ```
@@ -95,11 +95,11 @@ $ scp /Users/joe/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 ![Image](sshkeygensuccess.PNG)
 
 ## Step 6: Optimizing Remote Running
-* You can write a command in quotes at the end of an ssh command to directly run it on the remote server, then exit. For example, this command will log in and list the home directory on the remote server:
+* You can write a command in quotes at the end of an ssh command to run it on the remote server without having to login and logout. This command will log in and list the home directory on the remote server, then return you to your client directory:
 ```
 $ ssh cs15lwi22xx@ieng6.ucsd.edu "ls"
 ```
-* You can also use semicolons to run multiple commands on the same line in most terminals. For example, try:
+* You can also use semicolons to run multiple commands on the same line:
 ```
 $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 ```
