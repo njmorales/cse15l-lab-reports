@@ -24,7 +24,7 @@ Back to [All Labs](https://njmorales.github.io/cse15l-lab-reports/)
 * Symptom input and output: 
 ![Image](symptom2.PNG)
 
-* The bug here was the fact that we did not account for the possibility of bracket characters being a part of the clickable text for the link. This meant that the wrong nextCloseBracket value was used in the code, causing the link to not be detected and making the outputted list empty even though we expected that link to be included in the list. To fix this temporarily, we changed the detection of "]" to the detection of"](" to ensure that the code was searching for a link within the parentheses right after the closed bracket character. 
+* The bug here was the fact that we did not account for the possibility of bracket characters being a part of the clickable text for the link. This meant that the wrong nextCloseBracket value was used in the code, causing the link to not be detected and making the outputted list empty even though we expected that link to be included in the list. To fix this temporarily, we changed the detection of "]" to the detection of "](" to ensure that the code was searching for a link within the parentheses right after the closed bracket character. 
 
 ## Code Change 3: Fixing another syntax issue
 * GitHub commit differences:
