@@ -21,8 +21,8 @@ Back to [All Labs](https://njmorales.github.io/cse15l-lab-reports/)
 
 ## Code Change 3: Fixing another syntax issue
 * GitHub commit differences:
-![Image](codechange3.PNG)
+![Image](codechange3.png)
 * [Failure-inducing input file](test-file8.md)
 * Symptom input and output: 
-![Image](symptom3.PNG)
+![Image](symptom3.png)
 * We found another syntax related bug here, where we didn't account for the possibility of spaces being included in the clickable text. This caused the text to be included in the outputted list (which we expected to be empty) though it was not in the correct format of a link, as links do not contain spaces. We added a new condition to the if-statement that determines whether the link should be added to the list to ensure that the link did not include any spaces. 
