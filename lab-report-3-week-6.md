@@ -8,7 +8,7 @@ Back to [All Labs](https://njmorales.github.io/cse15l-lab-reports/)
 * I used the `scp.java -r` command to copy my MarkdownParse directory into a file called "markdown-parse-scp-demo" on my ieng6 account. 
 
 ## 2. Compiling and running the copied code
-* Screenshot of test output:  
+* Screenshot of remote test output:  
 ![Image](mdparse_scp-r_remote_run.png)
 
 * As you can see here after logging into my remote account, the code from my MarkdownParse directory successfully copied into my ieng6 account under the file "markdown-parse-scp-demo". I then ran the command `make test` to compile and run the MarkdownParseTest class using the `makefile` that we created in the week 6 lab. The output shows that the tests compiled and ran successfully. 
@@ -20,4 +20,4 @@ Back to [All Labs](https://njmorales.github.io/cse15l-lab-reports/)
 * Screenshot of the output (unexpected error):
 ![Image](scp-r_error_output.png)
 
-* I utilized the same commands from the week 4 lab to attempt to run the tests in one line. Though these commands work separately, for some reason when ran together in one line they do not work and I receive a message about a Java version mismatch between my code and the ieng6 compiler. I also tried to use the `make test` command as well and received the same result. I am not sure if this is a problem on my end, as my code compiles and runs correctly when I `scp`, `ssh`, and run the tests separately. 
+* I utilized the same commands from the week 4 lab to attempt to copy the directory and run the tests in one line. Though these commands work separately, for some reason when ran together in one line they do not work and I receive a message about a Java Runtime version mismatch between my code and the ieng6 compiler. I also tried to use the `make test` command as well and received the same result. I am not sure if this is a problem on my end, as my code compiles and runs correctly when I `scp`, `ssh`, and run the tests separately. 
