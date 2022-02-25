@@ -8,10 +8,15 @@ Back to [All Labs](https://njmorales.github.io/cse15l-lab-reports/)
 * I used the `scp.java -r` command to copy my MarkdownParse directory into a file called "markdown-parse-scp-demo" on my ieng6 account. 
 
 ## 2. Compiling and running the copied code
+* Screenshot of logging into ieng6 to check everything copied correctly:  
+![Image](scp-r_ssh_login.png)
+
+* As you can see here after logging into my remote account, the code from my MarkdownParse directory successfully copied into my ieng6 account under the file "markdown-parse-scp-demo".
+
 * Screenshot of remote test output:  
 ![Image](mdparse_scp-r_remote_run.png)
 
-* As you can see here after logging into my remote account, the code from my MarkdownParse directory successfully copied into my ieng6 account under the file "markdown-parse-scp-demo". I then ran the command `make test` to compile and run the MarkdownParseTest class using the `makefile` that we created in the week 6 lab. The output shows that the tests compiled and ran successfully. 
+* I then ran the command `make test` to compile and run the MarkdownParseTest class using the `makefile` that we created in the week 6 lab. The output shows that the tests compiled and ran successfully. 
 
 ## 3. Combining commands to copy the directory and run the tests in one line
 * Screenshot of the one-line command:  
