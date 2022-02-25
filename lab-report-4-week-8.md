@@ -1,9 +1,9 @@
-# Lab Report 3 - Copying a Whole Directory with scp -r
+# Lab Report 3 - Addressing Markdown Snippets
 Back to [All Labs](https://njmorales.github.io/cse15l-lab-reports/)
 
-My markdown-parse repository: (https://github.com/njmorales/markdown-parse)
+[My markdown-parse repository](https://github.com/njmorales/markdown-parse)
 
-Other group's markdown-parse repository: (https://github.com/P2fryang/markdown-parse)
+[Other group's markdown-parse repository](https://github.com/P2fryang/markdown-parse)
 
 ## Test Setups
 * Screenshot of the setup for the tests in my implementation:  

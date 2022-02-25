@@ -1,4 +1,4 @@
-# Lab Report 4 - Addressing Markdown Snippets
+# Lab Report 3 - Copying a Whole Directory with scp -r
 Back to [All Labs](https://njmorales.github.io/cse15l-lab-reports/)
 
 ## 1. Copying the whole MarkdownParse directory to my ieng6 account
