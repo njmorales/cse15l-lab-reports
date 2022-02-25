@@ -22,7 +22,7 @@ Back to [All Labs](https://njmorales.github.io/cse15l-lab-reports/)
 * Screenshot of the one-line command:  
 ![Image](scp-r_onelinecommand.png)
 
-* Screenshot of the output (unexpected error):
-![Image](scp-r_error_output.png)
+* Screenshot of the successful output:
+![Image](scp-r_onelinecommandoutput.png)
 
-* I utilized the same commands from the week 4 lab to attempt to copy the directory and run the tests in one line. Though these commands work separately, for some reason when ran together in one line they do not work and I receive a message about a Java Runtime version mismatch between my code and the ieng6 compiler. I also tried to use the `make test` command as well and received the same result. I am not sure if this is a problem on my end, as my code compiles and runs correctly when I `scp`, `ssh`, and run the tests separately. 
+* As you can see here I used a combination of `scp` and `ssh` commands alongside `;` to successfully copy the whole MarkdownParse directory and run the tests contained in `MarkdownParseTest.java` all in one line in the terminal. All of the tests passed after the run. 
