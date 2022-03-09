@@ -35,4 +35,4 @@ Back to [All Labs](https://njmorales.github.io/cse15l-lab-reports/)
 * Screenshot of code that must be changed in my implementation:  
 ![Image](diff2fix.png)
 
-* Overlapping backticks are what cause the error in my implementation. I would have to compare the indices of the backticks to the beginning and end indices of the corresponding link text and actual link in order to make sure that there is an even number of backticks inside and outside the brackets and parentheses. This will allow for inline code to contain links inside a markdown file without disrupting the format. 
+* Overlapping backticks are what cause the error in my implementation. I would have to compare the indices of the backticks to the beginning and end indices of the corresponding link text and actual link in order to make sure that there is an even number of backticks inside and outside the brackets and parentheses. If the matching backticks overlap between the parentheses and the brackets, then a link should not be added to the output list. 
